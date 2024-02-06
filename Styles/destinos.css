@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+/* Reset de estilos */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
+
+header {
+  background-color: #333;
+  padding: 20px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #999;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #ff5500;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #ff3300;
+}
+
+.passeiopopular{
+ padding: 50px 0;
+  text-align: center;
+}
+
+.passeiopopular h2 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  
+}
+
+.infopasseios {
+display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 0 40px;
+  box-sizing: border-box;
+  }
+
+.passeios {
+ /* width: 300px;
+  margin: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  margin-bottom: 10px;
+  display: block;
+  margin-bottom: 10px;*/
+  width: calc(33.33% - 90px);
+  margin: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+
+.passeios img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+
+}
+
+.tour-info {
+ /* padding: 20px;*/
+ font-size: 28px; 
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.tour-info h3 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.tour-info p {
+  font-size: 19px;
+  color: #080808;
+}
+.tour-info p.price {
+  color: #ff5500; 
+  font-weight: bold;}
+
+  .stars {
+    color: rgb(205, 205, 29); 
+  }
+
+.comprarpassagem {
+  display: block;
+  background-color: #ff5500;
+  color: #fff;
+  text-decoration: none;
+  padding: 8px 15px;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+  margin-top: 20px;
+}
+
+.btn-book:hover {
+  background-color: #ff3300;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333;
+  padding: 20px;
+  text-align: center;
+}
+
+footer p {
+  font-size: 14px;
+  color: #fff;
+}
+
+.duration,
+.capacity {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  margin-top: 15px;
+}
+
+.duration img,
+.capacity img {
+  width: 25px; 
+  height: 25px;
+  margin-right: 10px; 
+}
+.tour-info .preco-passagem {
+  font-size: 20px; 
+  color: rgb(0, 0, 0); 
+  background-color: rgb(226, 217, 217); 
+  padding: 5px;
+  margin-right: 10px;
+}

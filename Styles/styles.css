@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.booking {
+  width: 100%;
+  display: flex;
+}
+
+.heading-title {
+  margin-bottom: 3rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.book-form {
+  margin-left: 25%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  padding: 3rem;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 1rem 0;
+}
+
+.inputBox {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.1rem;
+}
+
+.inputBox input {
+  margin: 0.6rem 0;
+  padding: 0.8rem 1.2rem;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 1px 1px 6px #0000001c;
+  font-size: 0.8rem;
+}
+
+.inputBox input:hover {
+  background-color: #eeeeee75;
+}
+
+.inputBox input:focus-visible {
+  outline: 1px solid #000000c0;
+}
+
+.inputBox label,
+.gender-title h6 {
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.inputBox input[type="date"] {
+  color: #1f1f1fbe;
+}
+
+.button input[type="text"] {
+  padding: 5px;
+  border: 2px solid #ccc;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.button input[type="text"]:focus {
+  border-color: #333;
+}
+
+.button input[type="submit"] {
+  padding: 5px 15px;
+  color: #fff;
+  background: #000000c0;
+  border: 0 none;
+  cursor: pointer;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}

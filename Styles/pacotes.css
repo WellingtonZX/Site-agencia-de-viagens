@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+  
+ body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+  }
+  
+   header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+   h1 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+ nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  nav ul li a:hover {
+    color: #999;
+  }
+  
+  .pctdeviagem {
+    padding: 0 200px; 
+  }
+  
+  .titulodasecao {
+    font-size: 30px; 
+    text-align: center; 
+    margin-top: 20px; 
+    margin-bottom: 20px; 
+    font-family:"fantasy";
+  }
+  
+  .viagem {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 20px;
+    text-align: center;
+  width: calc(33.33% - 40px);
+  margin: 20px;
+}
+.diminueasdiv {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0 -1px;
+  
+}
+  
+  .imagemviagem {
+    background-color: #ccc;
+    height: 200px;
+    margin-bottom: 10px;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    background-image: url('Imagem/maldivas.jpeg');
+  }
+  
+ .descricaodopacote h3 {
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  .descricaodopacote p {
+    color: #888;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .detalhesdopacote {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .tipodopacote {
+    background-color: #f1eded;
+    border-radius: 5px;
+    color: #070707;
+    font-size: 17px;
+    padding: 5px;
+  }
+  
+  .precodopacote {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .classipacote {
+    margin-bottom: 10px;
+  }
+  
+  .promopacote {
+    background-color: #ffcc00;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 17px;
+    padding: 5px;
+  }
+  
+  .economiapacote {
+    font-size: 25px;
+    
+  }
+  
+ .botao-comprar{
+    display: block;
+    background-color: #ff5500;
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+  }
+
+  footer {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer p {
+    font-size: 14px;
+    color: #fff;
+  }
+
+  .informacoes {
+
+    align-items: center;
+    text-align: left;
+  }
+  
+  .informacoes img {
+    width: 40px !important; 
+    height: 40px !important;
+  } 
+  
+  .info-text {
+    font-size: 22px !important; 
+    margin-left:22px !important;
+  } 
+
+    .info-alinhar{
+      display: flex;
+      align-items: flex-start;
+      margin-bottom: 5px;
+  }
+  

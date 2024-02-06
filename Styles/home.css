@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
+
+header {
+  background-color: #333;
+  padding: 20px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #999;
+}
+
+.imagemdefundo{
+  background-image: url('Imagemstyles/himalayas-nepal.jpg'); /* Substitua pelo caminho da imagem de fundo */
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.frasesdaimagem {
+  text-align: center;
+}
+
+.frasesdaimagem h1 {
+  font-size: 48px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.frasesdaimagem p {
+  font-size: 20px;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+.botaoexplorar {
+  display: inline-block;
+  background-color: #ff5500;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.botaoexplorar:hover {
+  background-color: #ff3300;
+}
+
+.frasesdebaixo {
+  padding: 50px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.frasesbaixo {
+  text-align: center;
+  margin: 0 30px;
+}
+
+.frasesdebaixo i {
+  font-size: 36px;
+  color: #ff5500;
+  margin-bottom: 20px;
+}
+
+.frasesdebaixo h2 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.frasesdebaixo p {
+  font-size: 16px;
+  color: #666;
+}
+
+footer {
+  background-color: #333;
+  padding: 20px;
+  text-align: center;
+}
+
+footer p {
+  font-size: 14px;
+  color: #fff;
+}
+
